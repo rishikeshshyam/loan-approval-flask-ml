@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('negative.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.approval-box {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: blinkGreen 1s infinite alternate;
+}
+
+@keyframes blinkGreen {
+    from {
+        background: linear-gradient(to bottom right, #66ff66, #009900);
+    }
+
+    to {
+        background: linear-gradient(to bottom right, #99ff99, #006600);
+    }
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.emoji {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
