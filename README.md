@@ -53,7 +53,7 @@ pip install flask pandas scikit-learn
 ''''
 
 
-#Usage
+# Usage
 
 Run the app.py file.
 Open your web browser and navigate to the local server link provided in the terminal.
